@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How It Works — YAP</title>
+<link rel="icon" href="assets/yap-favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-logo"><img src="assets/yap-logo-hq.png" alt="YAP"></a>
+    <div class="nav-links">
+      <a href="how-it-works.html" class="active">How it works</a>
+      <a href="venues.html">For venues</a>
+      <a href="staff.html">For staff</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Start a pilot</a>
+  </div>
+</nav>
+
+<header class="page-hero wrap">
+  <span class="eyebrow">How it works</span>
+  <h1>From a tip at the table to money in your pocket.</h1>
+  <p class="lead">The pilot runs as a manually-operated programme — YAP handles
+    recon, payment files, and staff notifications by hand, so the model can
+    be proven before the tech is fully automated. For staff, the experience
+    is identical either way: they get their tips, whenever they want, at a
+    minimal fee.</p>
+</header>
+
+<section class="section wrap">
+  <div class="section-head">
+    <span class="eyebrow teal">Daily flow</span>
+    <h2>Five steps, once a day.</h2>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <div class="num">01</div>
+      <div>
+        <h3>Venue shares end-of-day tip data</h3>
+        <p>Each day, the venue exports tip totals from the POS and shares the
+          file with YAP — a simple daily send via email.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="num">02</div>
+      <div>
+        <h3>YAP runs the recon</h3>
+        <p>The data is reconciled, the venue's agreed split rules are applied,
+          and each staff member's share is calculated.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="num">03</div>
+      <div>
+        <h3>YAP processes payments via PayShap</h3>
+        <p>Tip amounts are floated and sent as individual payments to each
+          staff member — the amount they request, same day. No cash handling
+          on the venue's side. Minimum withdrawal R200, flat fee of R10 per
+          withdrawal.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="num">04</div>
+      <div>
+        <h3>Staff receive a WhatsApp notification</h3>
+        <p>Staff engage entirely through WhatsApp — seeing what's available,
+          requesting withdrawals, and getting support. No app download needed.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="num">05</div>
+      <div>
+        <h3>Venue reimburses YAP</h3>
+        <p>At the end of each cycle (weekly or monthly), YAP invoices the
+          venue for the total tips disbursed via a consolidated deduction
+          schedule. The venue reimburses in a single payment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" style="padding-top:0;">
+  <div class="section-head">
+    <span class="eyebrow">Who does what</span>
+    <h2>A clear split of responsibilities.</h2>
+  </div>
+  <table class="ledger">
+    <tr><th>Task</th><th>Owner</th></tr>
+    <tr><td>Share daily tip export from POS</td><td>Venue</td></tr>
+    <tr><td>Collect and onboard staff payment details (bank / phone)</td><td>Venue</td></tr>
+    <tr><td>Reconcile tip data and calculate per-staff splits</td><td>YAP</td></tr>
+    <tr><td>Process payments to staff and provide WhatsApp engagement</td><td>YAP</td></tr>
+    <tr><td>Float tip payments during the cycle</td><td>YAP</td></tr>
+    <tr><td>Monthly reimbursement to YAP for tips disbursed</td><td>Venue</td></tr>
+  </table>
+</section>
+
+<section class="section wrap" style="padding-top:0;">
+  <div class="section-head">
+    <span class="eyebrow teal">Data that moves, and why</span>
+    <h2>Only what's needed to calculate and pay tips.</h2>
+    <p>Full detail lives in the Venue Onboarding & Data Consent Pack — this is
+      the short version.</p>
+  </div>
+  <table class="ledger">
+    <tr><th>Data</th><th>Source</th><th>Used for</th></tr>
+    <tr><td>Staff name, phone, ID/employee number</td><td>Venue (HR / management)</td><td>WhatsApp notifications, identification</td></tr>
+    <tr><td>Staff bank account details</td><td>Venue (from staff)</td><td>Tip disbursement</td></tr>
+    <tr><td>Daily tip totals per staff member, by shift</td><td>Venue POS / MICROS export</td><td>Recon and per-staff split calculation</td></tr>
+    <tr><td>Agreed tip split rules</td><td>Venue management</td><td>Determines each staff member's share</td></tr>
+  </table>
+  <div class="callout" style="margin-top:24px;">
+    Staff consent is the venue's responsibility — each staff member needs to
+    have agreed to the YAP Pilot Participant T&Cs before their details are
+    shared with YAP. YAP processes the data solely to calculate and pay tips
+    and send WhatsApp notifications, in line with POPIA.
+  </div>
+</section>
+
+<footer class="wrap">
+  <div class="footer-grid">
+    <div>YAP is built by Vectory FS (Pty) Ltd, part of the Paymenow group.</div>
+    <div class="footer-links">
+      <a href="venues.html">For venues</a>
+      <a href="staff.html">For staff</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

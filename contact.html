@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — YAP</title>
+<link rel="icon" href="assets/yap-favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-logo"><img src="assets/yap-logo-hq.png" alt="YAP"></a>
+    <div class="nav-links">
+      <a href="how-it-works.html">How it works</a>
+      <a href="venues.html">For venues</a>
+      <a href="staff.html">For staff</a>
+    </div>
+    <a href="contact.html" class="nav-cta active">Start a pilot</a>
+  </div>
+</nav>
+
+<header class="page-hero wrap">
+  <span class="eyebrow teal">Get in touch</span>
+  <h1>Ready to run the pilot?</h1>
+  <p class="lead">Tell us a bit about your venue and we'll get back to you —
+    or reach out directly by email.</p>
+</header>
+
+<section class="section wrap">
+  <div class="contact-grid">
+    <div>
+      <form action="mailto:luke.moerdyk@paymenow.app" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+        <div class="field">
+          <label for="venue">Venue name</label>
+          <input id="venue" name="venue" type="text" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div class="field">
+          <label for="role">I am</label>
+          <select id="role" name="role">
+            <option>A venue owner / manager</option>
+            <option>A staff member</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your venue, staff numbers, or any questions."></textarea>
+        </div>
+        <button type="submit" class="btn btn-teal">Send message →</button>
+      </form>
+    </div>
+
+    <div>
+      <h3 style="margin-bottom:14px;">Prefer email?</h3>
+      <p style="margin-bottom:24px;">Reach us directly and we'll respond within
+        one business day.</p>
+      <a href="mailto:luke.moerdyk@paymenow.app" class="btn btn-ghost" style="margin-bottom:36px;">luke.moerdyk@paymenow.app</a>
+
+      <h3 style="margin-bottom:14px;">What happens next</h3>
+      <div class="steps">
+        <div class="step" style="padding:16px 0;">
+          <div class="num">01</div>
+          <div><p style="color:var(--text);">We reply and set up a short call.</p></div>
+        </div>
+        <div class="step" style="padding:16px 0;">
+          <div class="num">02</div>
+          <div><p style="color:var(--text);">We sign a non-binding pilot agreement.</p></div>
+        </div>
+        <div class="step" style="padding:16px 0;">
+          <div class="num">03</div>
+          <div><p style="color:var(--text);">We configure your POS connection and split rules.</p></div>
+        </div>
+        <div class="step" style="padding:16px 0;">
+          <div class="num">04</div>
+          <div><p style="color:var(--text);">Staff onboarding, then go-live.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div class="footer-grid">
+    <div>YAP is built by Vectory FS (Pty) Ltd, part of the Paymenow group.</div>
+    <div class="footer-links">
+      <a href="how-it-works.html">How it works</a>
+      <a href="venues.html">For venues</a>
+      <a href="staff.html">For staff</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
