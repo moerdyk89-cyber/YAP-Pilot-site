@@ -5,7 +5,7 @@
    grotesk for reading. Signature element: the receipt ticket.
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root{
   --ink:        #081312;
@@ -32,8 +32,8 @@
   --radius-md: 12px;
   --radius-lg: 20px;
 
-  --font-display: 'Space Grotesk', sans-serif;
-  --font-body:    'Space Grotesk', sans-serif;
+  --font-display: "Aptos", "Inter", sans-serif;
+  --font-body:    "Aptos", "Inter", sans-serif;
   --font-mono:    'IBM Plex Mono', monospace;
 
   --maxw: 1080px;
@@ -243,8 +243,8 @@ hr.rule{ border: none; border-top: 1px solid var(--line); margin: 0; }
 }
 .phone-shot img{
   width: 100%;
-  max-width: 300px;
-  border-radius: 28px;
+  max-width: 480px;
+  border-radius: 16px;
   box-shadow: 0 30px 70px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.05);
 }
 
