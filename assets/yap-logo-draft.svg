@@ -1,0 +1,23 @@
+<svg viewBox="0 0 720 344" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="4" width="712" height="336" rx="46" fill="#024854"/>
+
+  <!-- Y with wifi-signal left arm -->
+  <g fill="none" stroke="#35B452" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M158.7,193.1 A40,40 0 0 1 231.3,193.1"/>
+    <path d="M129.7,179.6 A72,72 0 0 1 260.3,179.6"/>
+    <path d="M100.7,166.0 A104,104 0 0 1 289.3,166.0"/>
+    <path d="M195,210 L288,215"/>
+    <path d="M390,90 L288,215 L288,292"/>
+  </g>
+
+  <!-- A peak with dot -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M392,292 L460,100 L528,292"/>
+  </g>
+  <circle cx="460" cy="228" r="15" fill="#35B452"/>
+
+  <!-- stylised P -->
+  <g fill="none" stroke="#35B452" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M548,292 L548,120 Q548,95 573,95 L615,95 Q642,95 642,122 L642,148 Q642,175 615,175 L575,175"/>
+  </g>
+</svg>
